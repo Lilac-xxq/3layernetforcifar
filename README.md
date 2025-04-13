@@ -1,7 +1,5 @@
 # 3layernetforcifar
 
-# 3layernetforcifar
-
 ## CIFAR-10 图像分类 - 三层神经网络
 
 ## 项目简介
