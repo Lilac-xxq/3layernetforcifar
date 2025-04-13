@@ -8,16 +8,15 @@
 
 ## 目录结构
 
-CIFAR10-ThreeLayerNet/
-├── ThreeLayerNet_CIFAR10.ipynb       # 主文件，包含训练和测试代码
-├── tools/
-│   ├── functions.py                  # 工具函数（ReLU、Sigmoid、Softmax 等）
-│   ├── layers.py                     # 神经网络层（Affine、Relu、Sigmoid 等）
-│   ├── optimizer.py                  # 优化器（SGD、Adam 等）
-│   └── multi_layer_net.py            # 多层神经网络实现
-├── dataset/                          # CIFAR-10 数据集（自动下载）
-├── best_model_params.pkl             # 训练后的模型参数文件
-└── README.md                         # 本文件
+- ThreeLayerNet_CIFAR10.ipynb   - 主文件，包含用于训练和测试三层神经网络的代码。
+- tools/functions.py            - 包含神经网络中使用的工具函数，如ReLU、Sigmoid、Softmax等激活函数。
+- tools/layers.py               - 定义了神经网络中的各种层，包括Affine层、Relu层、Sigmoid层等。
+- tools/optimizer.py            - 包含了不同的优化算法，如SGD（随机梯度下降）、Adam等
+- tools/multi_layer_net.py      - 实现了多层神经网络的结构和前向传播、反向传播等核心功能。
+
+- dataset/                      - CIFAR-10 数据集存放目录，数据集会在代码运行时自动下载。
+- best_model_params.pkl         - 存储训练完成后的最优模型参数，用于后续的模型测试或部署。
+- README.md                     - 项目说明文件，包含项目的介绍、运行指南和其他必要信息。
 
 ## 训练与测试
 
